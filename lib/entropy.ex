@@ -1,18 +1,9 @@
 defmodule Entropy do
   @moduledoc """
-  Documentation for `Entropy`.
+  Entropy keeps the contexts that define your domain
+  and business logic.
+
+  Contexts are also responsible for managing your data, regardless
+  if it comes from the database, an external API or others.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Entropy.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
